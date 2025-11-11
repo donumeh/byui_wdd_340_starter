@@ -1,6 +1,60 @@
+/* Google Font Import */
+@import url('https://fonts.googleapis.com/css2?family=Stack+Sans+Text:wght@200..700&display=swap');
+
 /******* Change Box Model ***************/
 *,
 *:before,
 *:after {
   box-sizing: border-box;
+}
+
+
+html {
+  background-image: url('/images/site/checkerboard.jpg');
+}
+
+body {
+  max-width: 80rem;
+  margin: 4rem auto;
+  padding: 0 1rem;
+  background-color: #fff;
+  border: 10px solid #04b5d6;
+  border-radius: 10px;
+  padding-inline: 1.5rem;;
+}
+
+#top-header {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 1.5rem;
+}
+
+#top-header a {
+  text-decoration: none;
+  font-family: "Stack Sans Text", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  color: #242333;
+}
+
+.siteName {
+    font-size: 2rem;
+    font-weight: 800;
+}
+
+#tools {
+  font-weight: 400;
+}
+
+nav {
+  background-color: #242333;
+  color: #fff;
+}
+
+ul {
+  list-style-type: none;
+  display: flex;
+  padding: 1rem;
+  justify-content: space-evenly;
+  font-weight: 600;
 }
